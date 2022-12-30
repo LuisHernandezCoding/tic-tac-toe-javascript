@@ -7,6 +7,9 @@ Tic Tac Toe is a web application that allows users to play the classic game of T
 ![Tic Tac Toe Preview - Input names](./previews/names.png)
 ![Tic Tac Toe Preview - Game board](./previews/game.png)
 
+## Live Demo:
+[Live Demo Link](https://luishernandezcoding.github.io/tic-tac-toe-javascript/)
+
 ## Long Description:
 Tic Tac Toe is a simple web application that allows users to play the classic game of Tic Tac Toe against each other. It includes a form for entering player names and a 3x3 grid for playing the game. The app tracks the number of wins for each player and displays the score. The player who loses the current game starts the next game.
 
