@@ -1,0 +1,76 @@
+body {
+  background-color: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.grid {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  max-width: 300px;
+}
+
+.grid > .slot {
+  border: 3px solid rgb(167, 167, 167);
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.grid > .slot:hover {
+  background-color: rgb(98, 98, 98);
+}
+
+.grid > .slot:active {
+  background-color: #ccc;
+}
+
+.grid > .seventh.slot {
+  border-top: none;
+  border-left: none;
+}
+
+.grid > .eighth.slot {
+  border-top: none;
+}
+
+.grid > .ninth.slot {
+  border-top: none;
+  border-right: none;
+}
+
+.grid > .fourth.slot {
+  border-left: none;
+}
+
+.grid > .sixth.slot {
+  border-right: none;
+}
+
+.grid > .first.slot {
+  border-bottom: none;
+  border-left: none;
+}
+
+.grid > .second.slot {
+  border-bottom: none;
+}
+
+.grid > .third.slot {
+  border-bottom: none;
+  border-right: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
